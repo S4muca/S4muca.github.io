@@ -1,0 +1,291 @@
+/* o body server para */
+body{
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+}
+/* o h1, h2, h3 serve para mexer com as especificações de todas letras*/
+h1, h2, h3{
+    font-family: Asap, sans-serif;
+    color: #000000;
+}
+h3{
+    font-family: Asap, sans-serif;
+    color: #000000;
+    padding: 5px 20px;
+    align-items: center;
+    font-size: 25px;
+    
+}
+/* este botão serve para mudar o aspeto de todos os botões*/
+.botao {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: .9em;
+    border-radius: 3px;
+}
+/* barra de navegação do site */
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191970;
+}
+/* links barra de navegação*/
+nav > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Yellowtail, serif;
+}
+/* lista de itens*/
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+/* */
+nav ul li {
+    text-align: center;
+    width: 100%;
+
+}
+/* */
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../imagens/gafetelindo.jpg");
+    background-size: cover;
+    background-repeat: no-reapeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+/* */
+header h1{
+    color: #FFFFFF;
+}
+/* */
+header p{
+    margin-bottom: 2em;
+}
+/* */
+#Sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970;
+    color: #FFFFFF;
+}
+/* */
+#Sobre h2{
+    color: #FFFFFF;
+}
+/* */
+#Sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+/* */
+#Sobre .botao {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+/* */
+#Fotos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+}
+/* */
+#Fotos h2 {
+    margin-bottom: 20px;
+}
+/* */
+#Fotos img {
+    width: 100%;
+}
+/* */
+#Contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+/* */
+#Contacto h2 {
+    Color: #000000;
+}
+/* */
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #191970;
+    color: #FFFFFF;
+}
+/* */
+footer a {
+    text-decoration: none;
+    color: #00FFFF;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    }  
+
+
+.texto{
+    padding: 20px;
+}
+
+.texto1{
+    font-size: 21px;
+    text-align: center;
+}
+
+.texto3, p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.texto, p, p{
+    padding: 20px;
+}
+.texto2 {
+    font-size: 5px;
+}
+
+.igrejafoto {
+    width: 500px;
+    height: 500px;
+    margin-left: 700px;
+    display: inline-block;
+    justify-content: right;
+    max-width: 800px;
+    min-width: 320px;
+    }
+
+.igrejafotoS{
+    height: 500px;
+    width: 500px;
+    margin-left: 680px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ }
+ .center{
+    text-align: center;
+ }
+/* */
+@media screen and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%
+    }
+
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+    #Sobre {
+        height: 250px;
+        height: 30vh;
+        justify-self: center;
+        min-height: 250px;
+    }
+    #serviços {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    #seviços h2{
+        text-align: center;
+        width: 100%;
+    }
+    #serviços div{
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+    #Fotos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #Fotos h2{
+        width: 100%;
+        text-align: center;
+    }
+    #Fotos img {
+        width: 33.333333%;
+    }
+    #Contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    #Contato h2, #Contato p {
+        width: 100%;
+    }
+
+    .imgg {
+        width: 618.5px;
+        height: 570px;
+        display: inline-block;
+        justify-content: center;
+    }
+}
+        @media screen and (max-width: 768px) {
+
+    
+    .igrejafoto {
+        width: 300px;
+        height: 300px;
+        margin-left: 16%;
+            }
+
+    .igrejafotoS{
+        height: 250px;
+        width: 250px;
+        margin-left: 23%;
+        display: inline-block;
+        justify-content: center;
+     }
+     .texto1{
+        font-size: 19px;
+     }
+     .texto3{
+        font-size: 19px;
+     }
+     .texto, p{
+        font-size: 19px;
+     }
+    }
