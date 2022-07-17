@@ -270,7 +270,9 @@ footer a {
         width: 300px;
         height: 300px;
         margin-left: 16%;
-            }
+        display: inline-block;
+        justify-content: center;
+    }
 
     .igrejafotoS{
         height: 250px;
